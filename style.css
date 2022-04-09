@@ -18,7 +18,7 @@ label{
 body{
     background-color: rgb(55, 53, 53);
 }
-input{
+#rangeContainer>input{
 box-shadow: #f0f1f4 4px 4px 8px;
 border-radius: 6px;
 }

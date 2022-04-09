@@ -1,7 +1,7 @@
 function getColor(){
-    let redValue=document.getElementById("customRange1").value;
-    let greenValue=document.getElementById("customRange2").value;
-    let blueValue=document.getElementById("customRange3").value;
+    let redValue=document.getElementById("redRange").value;
+    let greenValue=document.getElementById("greenRange").value;
+    let blueValue=document.getElementById("blueRange").value;
     let color= "rgb("+redValue+","+greenValue+","+blueValue+")";
     let hexColor= redValue.toString(16)+""+greenValue.toString(16)+""+blueValue.toString(16);
     console.log(color);

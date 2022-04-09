@@ -3,43 +3,8 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <title>Color Maker</title>
-        <style>
-            #rangeContainer{
-                width:50%;
-                margin:auto;
-                padding: 10%;
-                background-color: rgb(199,117,255);
-border-radius: 6px;
-            }
-            label{
-                font-weight: bold;
-                font-size:1.5vw;
-                text-shadow: #f0f1f4 2px 2px 4px;
-                font-family: comic sans ms;
-            }
-            #outputBox{
-                width:60%;
-                margin:auto;
-            }
-            body{
-                background-color: rgb(55, 53, 53);
-            }
-        </style>
-        <script>
-            function getColor(){
-                let redValue=document.getElementById("customRange1").value;
-                let greenValue=document.getElementById("customRange2").value;
-                let blueValue=document.getElementById("customRange3").value;
-                let color= "rgb("+redValue+","+greenValue+","+blueValue+")";
-                let hexColor= redValue.toString(16)+""+greenValue.toString(16)+""+blueValue.toString(16);
-                console.log(color);
-                document.getElementById("rangeContainer").style.backgroundColor=""+color+"";
-                document.getElementById("rgbValue").value=color;
-                document.getElementById("hexValue").value="#"+parseInt(redValue).toString(16)+""+parseInt(greenValue).toString(16)+""+parseInt(blueValue).toString(16);
-            }
-  
-
-        </script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <br><br>

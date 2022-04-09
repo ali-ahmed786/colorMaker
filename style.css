@@ -1,0 +1,20 @@
+#rangeContainer{
+    width:50%;
+    margin:auto;
+    padding: 10%;
+    background-color: rgb(199,117,255);
+border-radius: 6px;
+}
+label{
+    font-weight: bold;
+    font-size:1.5vw;
+    text-shadow: #f0f1f4 2px 2px 4px;
+    font-family: comic sans ms;
+}
+#outputBox{
+    width:60%;
+    margin:auto;
+}
+body{
+    background-color: rgb(55, 53, 53);
+}

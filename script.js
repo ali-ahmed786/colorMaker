@@ -3,9 +3,17 @@ function getColor(){
     let greenValue=document.getElementById("greenRange").value;
     let blueValue=document.getElementById("blueRange").value;
     let color= "rgb("+redValue+","+greenValue+","+blueValue+")";
-    let hexColor= redValue.toString(16)+""+greenValue.toString(16)+""+blueValue.toString(16);
+    let hexColor= rgbToHex(parseInt(redValue),parseInt(greenValue), parseInt(blueValue));
     console.log(color);
     document.getElementById("rangeContainer").style.backgroundColor=""+color+"";
     document.getElementById("rgbValue").value=color;
-    document.getElementById("hexValue").value="#"+parseInt(redValue).toString(16)+""+parseInt(greenValue).toString(16)+""+parseInt(blueValue).toString(16);
-}
+    document.getElementById("hexValue").value=hexColor;
+}function componentToHex(c) {
+    var hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+  }
+  
+  function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+  }
+  

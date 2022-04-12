@@ -11,6 +11,12 @@ border-radius: 6px;
     border-radius: 6px;
     box-shadow: #f0f1f4 6px 6px 10px;
 }
+h1{
+    text-align:center;
+    font-family: comic sans ms;
+    
+    text-shadow: #f0f1f4 6px 6px 10px;
+}
 label{
     color: #f0f1f4;
     font-weight: bold;
@@ -30,6 +36,7 @@ body{
 background-size: cover;
 background-repeat: no-repeat;
 }
+
 #rangeContainer>input{
 box-shadow: #f0f1f4 6px 6px 10px;
 border-radius: 6px;

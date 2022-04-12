@@ -1,14 +1,21 @@
 #rangeContainer{
     width:50%;
     margin:auto;
-    padding: 10%;
-    background-color: rgb(199,117,255);
+    padding: 5%;
+    background-color: rgb(255, 127,0);
 border-radius: 6px;
 }
+#subRangeContainer{
+    padding:3%;
+    background-color: rgb(58, 55, 60,0.5);
+    border-radius: 6px;
+    box-shadow: #f0f1f4 6px 6px 10px;
+}
 label{
+    color: #f0f1f4;
     font-weight: bold;
     font-size:1.5vw;
-    text-shadow: #f0f1f4 6px 6px 10px;
+    text-shadow: #5b5d61 6px 6px 10px;
     font-family: comic sans ms;
 }
 #outputBox{
@@ -16,7 +23,12 @@ label{
     margin:auto;
 }
 body{
-    background-color: rgb(55, 53, 53);
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+        
+    background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
 }
 #rangeContainer>input{
 box-shadow: #f0f1f4 6px 6px 10px;

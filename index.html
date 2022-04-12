@@ -9,24 +9,26 @@
     <body>
         <br><br>
         <div id= "rangeContainer">
+          <div id= "subRangeContainer">
         <label for="customRange1" class="form-label">Red</label>
-<input type="range" class="form-range" min="0" max="255" value="199" id="redRange" onchange="getColor()">
+<input type="range" class="form-range" min="0" max="255" value="255" id="redRange" onchange="getColor()">
 <label for="customRange2" class="form-label">Green</label>
-<input type="range" class="form-range" min="0" max="255" value="117" id="greenRange" onchange="getColor()">
+<input type="range" class="form-range" min="0" max="255" value="127" id="greenRange" onchange="getColor()">
 <label for="customRange3" class="form-label">Blue</label>
-<input type="range" class="form-range" min="0" max="255" value="255" id="blueRange" onchange="getColor()">
+<input type="range" class="form-range" min="0" max="255" value="0" id="blueRange" onchange="getColor()">
+</div>
 </div>
 <br>
 <br>
 <div id="outputBox">
 <div class="input-group input-group-lg">
     <span class="input-group-text" id="inputGroup-sizing-lg">HEX</span>
-    <input type="text" class="form-control" id="hexValue" aria-label="Sizing example input" placeholder="" aria-describedby="inputGroup-sizing-lg" value="#c775ff" disabled>
+    <input type="text" class="form-control" id="hexValue" aria-label="Sizing example input" placeholder="" aria-describedby="inputGroup-sizing-lg" value="#ff7f00" disabled>
   </div>
   <br>
   <div class="input-group input-group-lg">
     <span class="input-group-text" id="inputGroup-sizing-lg">RGB</span>
-    <input type="text" class="form-control" id="rgbValue"  aria-label="Sizing example input" placeholder="" aria-describedby="inputGroup-sizing-lg" value="rgb(199,117,255)" disabled>
+    <input type="text" class="form-control" id="rgbValue"  aria-label="Sizing example input" placeholder="" aria-describedby="inputGroup-sizing-lg" value="rgb(255,127,0)" disabled>
   </div>
 </div>
 </body>
